@@ -50,3 +50,20 @@ a {
   font-size: 0.9rem;
   font-weight: bold;
 }
+
+.hamburger-icon {
+  float: right;
+  top: 50%;
+  line-height: 70px;
+  font-size: 1.4rem;
+}
+
+/* Hero */
+/* .hero {
+  position: relative;
+  height: 625px;
+  background-image: url('../img/hero-bg.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
