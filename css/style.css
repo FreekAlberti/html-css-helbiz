@@ -67,11 +67,31 @@ a {
 }
 
 /* Hero */
-/* .hero {
+.tetto {
+  height: 70px;
+}
+.hero {
   position: relative;
   height: 625px;
   background-image: url('../img/hero-bg.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-} */
+}
+.banner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-align: center;
+}
+.padding-20 {
+  padding: 20px;
+}
+.banner p {
+  margin: 20px 0;
+}
+.banner h1 {
+  font-size: 45px;
+}
