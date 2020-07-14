@@ -12,6 +12,9 @@ a {
 .list-inline li {
   display: inline-block;
 }
+.padding-10 {
+  padding: 0 10px;
+}
 
 /* HEADER */
 
@@ -42,6 +45,14 @@ a {
 .side-menu {
   text-align: right;
 }
+.bordi::after {
+  content: "|";
+  margin-left: 5px;
+}
+.bordi::before {
+  content: "|";
+  margin-right: 5px;
+}
 .btn {
   padding: 10px 20px;
   margin-left: 15px;
@@ -52,9 +63,6 @@ a {
 }
 
 .hamburger-icon {
-  float: right;
-  top: 50%;
-  line-height: 70px;
   font-size: 1.4rem;
 }
 
