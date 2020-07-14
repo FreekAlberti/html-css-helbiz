@@ -1,0 +1,52 @@
+/* MIX */
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+a {
+  text-decoration: none;
+}
+.list-inline {
+  list-style: none;
+}
+.list-inline li {
+  display: inline-block;
+}
+
+/* HEADER */
+
+/* HEADER TOP */
+
+.header-top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  height: 70px;
+  line-height: 70px;
+  font-size: 0.7rem;
+}
+.logo {
+  height: 12px;
+}
+.main-menu {
+  text-align: right;
+}
+.main-menu li {
+  padding-right: 30px;
+}
+.main-menu li a {
+  color: #000;
+}
+.side-menu {
+  text-align: right;
+}
+.btn {
+  padding: 10px 20px;
+  margin-left: 15px;
+  color: #fff;
+  background-color: black;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
