@@ -95,8 +95,25 @@ a {
 .banner h1 {
   font-size: 45px;
 }
+
+/* SECTION */
 .img-bicimono {
   max-width: 100%;
   height: auto;
   max-height: 400px;
+}
+.prodotti {
+  margin-top: 50px;
+  text-align: center;
+}
+.sfondo {
+  background-color: #FAFAFA;
+  padding: 80px 20px 20px 20px;
+}
+.logo-prodotto {
+  width: 50%;
+}
+section .sfondo p {
+  margin: 30px 0;
+  font-size: 1.1rem;
 }
